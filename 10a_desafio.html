@@ -1,9 +1,82 @@
-<!-- Desafio 2 digitação (Aqui) -->
- 
-<!-- Obs: Ler (10a_desafio.md) para orientações -->
-<!-- Imagem de como deve ficar pronto na pasta assets (desafio 2.jpg) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio2</title>
+</head>
+<body>
+    <h1>📸Luna Captures</h1>
 
-<!-- 📱 🚀 📺 📧 emojis para usar no projeto -->
+    <nav>
+        <a href="#">Sobre</a> | <a href="#">Galeria</a> | <a href="#">Contato</a>
+    </nav>
+
+    <h2>Sobre Luna</h2>
+
+    <p>Fotógrafa há <strong>8 anos</strong> especializada em momentos únicos.</p>
+
+        <blockquote>
+            A fotografia captura não apenas o que vemos, mas o que sentimos.
+        </blockquote>
+
+    <h2>Galeria</h2>
+
+    <section>
+        <img src="assets/casa1.jpg" alt="Logo do Senai" width="300" height="200">
+        <img src="assets/casa2.jpg" alt="Logo do Senai" width="300" height="200">
+        <img src="assets/casa3.jpg" alt="Logo do Senai" width="300" height="200">
+    </section>
+
+
+    <h3>Serviços</h3>
+    <ul>
+        <li><strong>Casamentos </strong>- R$ 1.200</li>
+        <li><strong>Retratos </strong>- R$ 350</li>
+        <li><strong>Eventos </strong>- R$ 600</li>
+
+    </ul>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form action="enviar.php">
+
+
+                <label for="Nome">Nome</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="assunto">Evento:</label><br>
+                <select name="assunto" id="assunto">
+                    <option value="trabalho">Casamento</option>
+                    <option value="trabalho">Proposta de projetos</option>
+                    <option value="geral">Contato Geral</option>
+                </select><br><br>
+
+                <label for="mensagem">Detalhes:</label><br>
+                <textarea name="mensagem" id="mensagem" rows="5"></textarea><br><br>
+
+                <input type="submit" value="Solicitar Orçamento">
+
+
+        </form>
+      </section>  
+
+ <!-- Rodapé (footer)-->
+
+ <footer>
+    <p>&copy; 2025 Luna Captures <a href="mailto:luna@exemplo.com">luna@exemplo.com</a></p>
+
+ </footer>
+
+    
+</body>
+</html>
+
+<!--     emojis para usar no projeto -->
 
 
 
